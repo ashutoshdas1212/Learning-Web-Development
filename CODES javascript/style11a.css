@@ -1,0 +1,26 @@
+.gridcontainer{
+    height:250px;
+    width:750px;
+
+    border:2px solid black;
+
+    display:grid;
+
+    /*grid-template-columns:1fr 1fr 1fr;*/
+    grid-template-columns:repeat(4,1fr);
+    /* divides frame into 3 partitions*/
+    
+    /*grid-gap: 10px;*/
+    /*
+    column-gap: 100px;
+    row-gap:20px;*/
+     gap:10px;
+    /*grid-template-rows:150px 150px 150px;*/
+    /* text is overflowing so we can use overflow:scroll*/
+    
+}
+
+.box1{
+grid-row:2/3;
+grid-column:3/4;
+}

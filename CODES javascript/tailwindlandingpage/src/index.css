@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;ital,style=italic&display=swap');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/Lato.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .font-lato {
+    font-family: 'Lato', sans-serif;
+  }
+  
+@font-face {
+    font-family: 'Playfair';
+    src: url('./assets/fonts/Playfair.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .font-playfair {
+    font-family: 'Playfair', sans-serif;
+  }
+  
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

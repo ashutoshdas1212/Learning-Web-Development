@@ -1,0 +1,3 @@
+
+STATE refers to
+functional component mein usestate se state manage kiya jaata hai
